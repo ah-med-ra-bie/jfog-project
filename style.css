@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    text-align: start;
+}
+
+header {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: hsl(0, 0%, 20%);
+    font-size: 15px;
+    text-transform: capitalize;
+
+}
+
+ul a:hover {
+    color: hsl(224, 69%, 21%);
+}
+
+ul>li {
+    margin-left: 35px;
+}
+
+section {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    padding: 40px;
+
+}
+
+.sec-1 {
+    margin-top: 20px;
+}
+
+.photo>img {
+    width: 65vh;
+}
+
+.data h2 {
+    font-size: 30px;
+    width: 500px;
+    line-height: 50px;
+    margin-bottom: 15px;
+    color: hsl(243, 87%, 12%);
+
+}
+
+.data>p {
+    font-size: 14px;
+    width: 445px;
+    line-height: 20px;
+    margin-bottom: 25px;
+    color: hsl(243, 87%, 12%);
+
+}
+
+.data-1 .email {
+    padding: 8px;
+    width: 230px;
+    margin-right: 15px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.553);
+}
+
+.data-1 .submit {
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    font-size: 12px;
+    border-radius: 2px;
+    transition: 0.5s;
+
+}
+
+.data-1 .submit:hover {
+    background-color: hsl(224, 100%, 74%);
+    cursor: pointer;
+    transform: 0.5s ease;
+}
+
+.sec-2 {
+    background: rgb(243 247 255);
+    width: 100%;
+    height: 85vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    width: fit-content;
+    margin-bottom: 25px;
+}
+
+.link a {
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    list-style: none;
+}
+
+.openion {
+    height: 190px;
+    width: 290px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 1px 3px 1px #00000085;
+}
+
+.openion>p {
+    font-size: 12px;
+    line-height: 18px;
+    width: 230px;
+    margin: 5px 0 10px 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+.porfile-data>p {
+    font-size: 10px;
+}
+
+.sec-3 {
+    width: 100%;
+    height: 40vh;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.data-3 {
+    width: 50%;
+}
+
+h3 {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.data-3 p {
+    font-size: 12px;
+    width: 355px;
+    line-height: 21px;
+}
+
+.join-us {
+    width: 50%;
+}
+
+.join-us form {
+    display: flex;
+    flex-flow: column;
+}
+
+.j-mail {
+    width: 400px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.get-start {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+
+.get-start:hover {
+    background-color: hsl(224, 100%, 74%);
+    cursor: pointer;
+    transform: 0.5s ease;
+
+}
+
+footer {
+    width: 100%;
+    height: 45vh;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .contacts div {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.contacts img {
+    height: 11px;
+    margin-right: 15px;
+}
+
+.contacts p {
+    font-size: 11px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 8px;
+}
+
+.list a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.list a:hover {
+    color: hsl(238, 22%, 44%);
+    transform: 0.3s ease;
+
+}
+
+.mat pre {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.icon img {
+    height: 12px;
+}
+
+@media (max-width:400px) {
+    header {
+        padding: 20px;
+    }
+
+    .logo img {
+        height: 22px;
+    }
+
+    header li {
+        margin-left: 15px;
+    }
+
+    header li a {
+        font-size: 12px;
+    }
+
+    .sec-1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-flow: column-reverse;
+        margin-top: 0;
+        height: 100vh;
+    }
+
+    .sec-1 img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .data h2 {
+        font-size: 22px;
+        width: 280px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .data>p {
+        font-size: 12px;
+        width: 250px;
+        line-height: 20px;
+        margin-bottom: 25px;
+        color: hsl(243, 87%, 12%);
+        text-align: center;
+    }
+
+    .data-1 .email {
+        width: 280px;
+    }
+
+    .data-1 .submit {
+        width: 280px;
+        margin: 15px 0;
+    }
+
+    .sec-2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-flow: column-reverse;
+        text-align: center;
+        height: 125vh;
+
+    }
+
+    .sec-2 img {
+        width: 100%;
+
+    }
+
+    .data-2 h2 {
+        font-size: 15px;
+    }
+
+    .data-2 p {
+        font-size: 12px;
+        width: 260px;
+        text-align: start;
+    }
+
+    .link img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .link {
+        margin: auto;
+    }
+
+    .openion {
+        margin: 20px auto;
+    }
+
+    .openion>img {
+        height: 10px;
+        width: 10px;
+    }
+
+    .sec-3 {
+        padding: 0;
+        display: block;
+        height: 45vh;
+        width: 100%;
+    }
+
+    .data-3 h3 {
+        text-align: center;
+        width: 375px;
+        padding: 40px 0 25px 0px;
+        font-size: 19px;
+    }
+
+    .data-3 p {
+        text-align: center;
+        padding: 0 55px 15px 70px;
+    }
+
+    .j-mail {
+        width: 235px;
+        padding: 10px;
+        margin-left: 70px;
+    }
+
+    .get-start {
+        margin-left: 70px;
+        width: 235px;
+    }
+
+    footer {
+        display: block;
+        height: 60vh;
+        padding: 40px;
+    }
+
+    footer .mat {
+        margin: 50px 0;
+    }
+}
+@media (min-width:400px) and (max-width:550px) {
+    header {
+        padding: 25px;
+    }
+
+    .logo img {
+        height: 25px;
+    }
+
+    header li {
+        margin-left: 15px;
+    }
+
+    header li a {
+        font-size: 13px;
+    }
+
+    .sec-1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-flow: column-reverse;
+        margin-top: 0;
+        height: 100vh;
+    }
+
+    .sec-1 img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .data h2 {
+        font-size: 24px;
+        width: 330px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .data>p {
+        font-size: 15px;
+        width: 330px;
+        line-height: 20px;
+        margin-bottom: 25px;
+        color: hsl(243, 87%, 12%);
+        text-align: center;
+    }
+
+    .data-1 .email {
+        width: 300px;
+        margin-left: 20px;    }
+
+    .data-1 .submit {
+        width: 300px;
+        margin: 15px 0 15px 20px;
+    }
+
+    .sec-2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-flow: column-reverse;
+        text-align: center;
+        height: 130vh;
+
+    }
+
+    .sec-2 img {
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+
+    .data-2 h2 {
+        font-size: 16px;
+    }
+
+    .data-2 p {
+        font-size: 13px;
+        width: 290px;
+        text-align: start;
+    }
+
+    .link img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .link {
+        margin: auto;
+    }
+
+    .openion {
+        margin: 20px auto;
+        height: 180px;
+        width: 320px;
+    }
+
+    .openion>img {
+        height: 10px;
+        width: 10px;
+    }
+
+    .sec-3 {
+        padding: 0;
+        display: block;
+        min-height: 40vh;
+        width: 100%;
+    }
+
+    .data-3 h3 {
+        text-align: center;
+        width: 390px;
+        padding: 40px 0 25px 0px;
+        font-size: 25px;
+    }
+
+    .data-3 p {
+        text-align: center;
+        font-size: 13px;
+        padding: 0px 30px 25px 70px;
+    }
+
+    .j-mail {
+        width: 270px;
+        padding: 10px;
+        margin-left: 60px;
+    }
+
+    .get-start {
+        margin-left: 60px;
+        width: 270px;
+    }
+
+    footer {
+        display: block;
+        height: 65vh;
+        padding: 50px;
+    }
+
+    footer .mat {
+        margin: 50px 0;
+    }
+    
+}
